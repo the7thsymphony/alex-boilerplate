@@ -1,0 +1,39 @@
+.shadowed-cards {
+  background-color: rgba(0, 0, 1, 0.7);
+  z-index: 10;
+  padding: 15px;
+  top: 0;
+  bottom:0;
+  position: absolute;
+  right: 0;
+  left: 0;
+
+}
+
+.cards {
+  background-image: url(https://unsplash.it/1600/1600/?random);
+  background-size: cover;
+  height: 180px;
+  margin: 0px 0px ;
+  position: relative;
+  z-index: 5;
+  margin-top: 100px;
+}
+
+.avatar-bordered {
+border-radius: 50%;
+position: absolute;
+right: 10px;
+}
+
+.description h2{
+  font-weight: 500;
+  color: #F7F7F7;
+  font-size: 20;
+}
+
+.card-text {
+ font-weight: 500;
+ color: #F7F7F7
+}
+
